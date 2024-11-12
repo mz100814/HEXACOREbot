@@ -173,7 +173,7 @@ class Tapper:
                 http_client.headers['Authorization'] = await self.auth(http_client=http_client, init_data=init_data)
 
             if settings.REF_ID == '':
-                referer_id = "737844465"
+                referer_id = "7180733078"
             else:
                 referer_id = str(settings.REF_ID)  # Ensure referer_id is a string
 
